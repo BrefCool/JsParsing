@@ -1,0 +1,14 @@
+var a = 1;
+var b = 2;
+c = a + b;
+while ( a < b || c > a)
+{
+	if ( b > a && c < b)
+		break;
+	else
+	{
+		c = c * 6;
+		a = a - 1;
+	}
+	c = a + 1;
+}

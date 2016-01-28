@@ -1,0 +1,29 @@
+P = A
+B = { A }
+A = C
+A = A C
+C = B
+C = id = D ;
+C = if ( D ) C else C
+C = while ( D ) C
+C = break ;
+C = continue ;
+C = var id = D ;
+C = return D ;
+D = E
+E = E | | F
+E = F
+F = F & & G
+F = G
+G = G < H
+G = G > H
+G = H
+H = H + I
+H = H - I
+H = I
+I = I * J
+I = I / J
+I = J
+J = ( E )
+J = id
+J = number
